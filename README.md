@@ -12,15 +12,13 @@ This repository provides a single Dockerfile configuration to launch multiple in
 ## Getting Started
 -------------------
 ### Cloning the Repository
-git clone https://github.com/OLOZ4/ArchiveTeamWarriorCluster.git
+```git clone https://github.com/OLOZ4/ArchiveTeamWarriorCluster.git```
 
-Copy
 
 ### Running the Container
-cd archive-team-warrior-multi-instance
-docker-compose up
+```cd archive-team-warrior-multi-instance
+docker-compose up```
 
-Copy
 This will start multiple instances of Archive Team Warrior, as specified in the `docker-compose.yml` file.
 
 ## Configuration
