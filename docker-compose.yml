@@ -1,0 +1,14 @@
+services:
+  watchtower:
+    image: atdr.meo.ws/archiveteam/warrior-dockerfile:latest
+    restart: on-failure
+    ports:
+      - 8001-8011:8001 # gives each container unique port. Change acordingly to scale parameter
+    
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DOWNLOADER=xxm # username
+      - CONCURRENT_ITEMS=6
+      - SELECTED_PROJECT=auto
+    scale: 10 # number of instances
