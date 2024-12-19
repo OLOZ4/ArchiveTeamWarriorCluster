@@ -2,7 +2,7 @@
 
 ## Overview
 ----------
-This repository provides a single Dockerfile configuration to launch multiple instances of [Archive Team Warrior](https://github.com/internetarchive/heritrix3/wiki) in using multiple containers. This allows for scalable and efficient web archiving.
+This repository provides a single Dockerfile configuration to launch multiple instances of [Archive Team Warrior](https://github.com/internetarchive/heritrix3/wiki) using multiple containers. This allows for scalable and efficient web archiving.
 
 ## Prerequisites
 --------------
@@ -17,6 +17,7 @@ This repository provides a single Dockerfile configuration to launch multiple in
 
 ### Running the Container
 ```cd ArchiveTeamWarriorCluster```
+
 ```docker-compose up```
 
 This will start multiple instances of Archive Team Warrior, as specified in the `docker-compose.yml` file.
