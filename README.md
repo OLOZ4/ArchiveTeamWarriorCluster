@@ -16,8 +16,8 @@ This repository provides a single Dockerfile configuration to launch multiple in
 
 
 ### Running the Container
-```cd archive-team-warrior-multi-instance
-docker-compose up```
+```cd ArchiveTeamWarriorCluster```
+```docker-compose up```
 
 This will start multiple instances of Archive Team Warrior, as specified in the `docker-compose.yml` file.
 
