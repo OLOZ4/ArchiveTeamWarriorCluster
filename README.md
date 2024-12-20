@@ -2,7 +2,7 @@
 
 ## Overview
 ----------
-This repository provides a single Dockerfile configuration to launch multiple instances of [Archive Team Warrior](https://github.com/internetarchive/heritrix3/wiki) using multiple containers. This allows for scalable and efficient web archiving.
+This repository provides a single Dockerfile configuration to launch multiple instances of [Archive Team Warrior](https://github.com/internetarchive/heritrix3/wiki) using Docker. This allows for scalable and efficient web archiving.
 
 ## Prerequisites
 --------------
@@ -28,7 +28,7 @@ This will start multiple instances of Archive Team Warrior, as specified in the 
 | Variable   | Default Value  | Description  |
 |----------|--------------|-------------|
 | scale  | 10            | Number of Archive Team Warrior instances to launch  |
-| ports    | 8001-8011  | Port range for the containers. port range should equal to variable "scale" (so let's say scale = 10, then ports are 8001-8011 if you subtract them you will get 10)|
+| ports    | 8001-8011  | Port range for the containers. port range should be equal to variable "scale" (so let's say scale = 10, then ports are 8001-8011 if you subtract them you will get 10)|
 | DOWNLOADER  | xxm | username  |
 
 
